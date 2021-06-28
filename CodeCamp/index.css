@@ -94,7 +94,7 @@ nav.open {
 .landing {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.719)), url("/CodeCamp/img/landing.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.719)), url("landing.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -306,7 +306,7 @@ nav.open {
 .About {
     width: 100%;
     height: auto;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.719)), url("/CodeCamp/img/tree.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.719)), url("tree.jpg");
     background-position: center;
     background-size: cover;
 }
