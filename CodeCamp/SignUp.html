@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login to your Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="..\CodeCamp\css\form.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="shortcut icon" href="..\CodeCamp\img\favicon.ico" type="image/x-icon">
+    
+    </head>
+    <body>
+    <form on_submit >
+    <h1> Sign Up for Your DashBoard</h1>
+    <div class ="tect">
+    <input type = "text" placeholder = "Username" required>
+</div>
+<div class = "tect">
+    <input class = "pass"type = "password" placeholder = "password" required>
+</div>
+
+<div class = "tect">
+    <input class = "pass_c" type = "password" placeholder = "Confirm password" required>
+</div>
+
+
+<div class = "tect">
+    <input type = "email" placeholder = "Put your Valid email" required>
+</div>
+
+
+<div class = "tect">
+    <input type = "number" placeholder = "your number" required>
+</div>
+
+    <a class = "button" href ='..\CodeCamp\dashboard.html'><center>Sign Up</center></a>
+    
+     <div class = "icons">
+<p>or sign Up with:</p> <br/>
+<a target = "_blank" href ="https://www.facebook.com/profile.php"><i class="fab fa-facebook"></i></a>
+<a href = ""><i class="fab fa-google"></i></a>
+<a href = " "><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    </form>
+
+    <div class ="return">
+<a href = "..\CodeCamp\index.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+    </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script>
+
+        function submit(){
+        pass1 = document.getElementsByClassName("pass").value;
+        pass2 = document.getElementsByClassName("pass_c").value;
+        if ( pass != pass_c){
+            alert("passwrd don't match");
+        }
+
+        }
+        </script>
+    </body>
+</html>
