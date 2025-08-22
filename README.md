@@ -10,8 +10,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40"/>
-  <img src="https://raw.githubusercontent.com/syedmohsinbukhari/DeepLearning-Icons/main/deep-learning.png" alt="Deep Learning" width="40"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/ai.svg" alt="LLMs" width="40"/>
+  <img src="icons8-deep-learning-64.png" alt="Deep Learning" width="40"/>
+  <img src="machine-learning_2172891.png" alt="LLMs" width="40"/>
 </p>
 
 ---
